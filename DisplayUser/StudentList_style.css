@@ -1,0 +1,109 @@
+.content {
+    color: black;
+    display: block;
+    visibility: visible;
+    margin-top: 90px;
+    margin-left: 300px;
+    font-size: 24px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.header p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+.header input[type="button"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    border:none;
+}
+.listbooking {
+    width: 90%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Slightly transparent background */
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.listbooking p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+.booking-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.booking-table th, .booking-table td {
+    padding: 8px;
+    text-align: center;
+}
+.booking-table th {
+    font-weight: bold;
+    font-size: 20px;
+}
+.booking-table tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    font-size: 15px;
+}
+.booking-table tr:last-child {
+    border-bottom: none;
+}
+
+.booking-table .parkingnum-column {
+    text-align: center;
+    width: 18%;
+}
+.booking-table .date-column, .booking-table .id-column, .booking-table .area-column, .booking-table .time-column {
+    text-align: center;
+    width: 16%;
+}
+.booking-table .button-column {
+    width: 10%;
+}
+
+.bottomButton input[type="button"]{
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    border:none;
+}
+#viewButton{
+    font-size: 12px;
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border:none;
+    width: 80px;
+    height: 40px;
+}
+#addNewButton{
+    margin-left: 700px;
+    background-color: green;
+}
+
+#backButton{
+    margin-left: 30px;
+    background-color: red;
+}
+
+.btn {
+background-color: #007bff;
+color: white;
+border: none;
+padding: 5px 10px;
+cursor: pointer;
+border-radius: 4px;
+}
